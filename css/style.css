@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+#header {
+    font-family: 'Arima', cursive;
+    background-color: antiquewhite;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    width: 180px;
+    height: 35px;
+}
+
+#list-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+#nav-bar li {
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-family: 'Arima', cursive;
+    color: #000;
+    overflow: hidden;
+}
+
+/*main*/
+.heading-land {
+    background-color: cadetblue;
+    font-family: 'Arima', bold;
+    display: flex;
+    padding-top: 25px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#email {
+    width: 200px;
+    height: auto;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+#submit {
+    background-color: rgba(165, 194, 193, 0.492);
+    width: 110px;
+    height: 30px;
+    border: 0;
+    font-family: 'Arima', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*material information*/
+
+.benefit-info-health{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    font-family: 'Arima', cursive;
+}
+.health {
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.lightning {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.shield {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+#video {
+    margin-top: 30px;
+    width: 560px;
+    height: 315px;
+    border: 1px solid #000;
+}
+/*Pricing*/
+#pricing-menu {
+    padding-top: 20px;
+    background-color: #eee;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    grid-auto-flow: column;
+    grid-template-rows: 300px;
+    grid-column-gap: 20px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+.first-pricing-info{
+    grid-column: 1;
+}
+.position-price-plus{
+    width: 30px;
+}
+
+.second-pricing-info {
+    grid-column: 2;
+}
+
+.third-pricing-info {
+    grid-column: 3;
+}
+
+.price-box {
+    border: 1px solid rgb(183, 142, 142);
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box h{
+    text-transform: uppercase;
+}
+
+.heading-color{
+    background-color: rgba(230, 196, 146, 0.752);
+    width: 100%;
+}
+
+.price-detail{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pricing-text{
+    max-width: 300px;
+    text-align: center;
+}
+
+.select-button {
+    margin-top: 40px;
+    background-color: burlywood;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.uppercase-heading {
+    text-transform: uppercase;
+}
+
+/*Footer*/
+.footer{
+    background-color: rb(153, 145, 145);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    background-color: #ddd;
+    width: 1000px;
+    max-height: 80px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-links {
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.footer-link-list {
+    list-style: none;
+}
+
+.footer-link-list a{
+    text-decoration: none;
+    font-family: 'Arima', cursive;
+    color: #000;
+    padding-right: 10px;
+}
+
+.footer-nav span {
+    font-family: 'Arima', cursive;
+    font-size: 14px;
+    justify-content:end;
+    align-items: flex-end;
+    padding-right: 10px;
+}
